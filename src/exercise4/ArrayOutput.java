@@ -14,8 +14,8 @@ public class ArrayOutput {
     }
     for (int index = 0; index < numbers.length; index++) {
     System.out.println(numbers[index]);
-    empty = empty + " ";
     System.out.print(empty);
+    empty = empty + " ";
     }
   }
 }
